@@ -1,0 +1,665 @@
+#header-one{
+    background-color: #27384A;
+    padding: 0.2em;
+    direction: ltr;
+}
+.number {
+    margin: 0.2em;
+    color: white;
+    font-size: .8em;
+    text-align: center;
+}
+#number-span{
+    border-right: .1em solid #9e9e9e;
+    padding-right: 0.5em;
+}
+#phone-icon-img {
+     width: 6%;
+    
+ }
+ #email-icon-img{
+    width: 4%;
+    margin-left: .5em;
+}
+.header-icons{
+    text-align: center;
+}
+.header-icons .fab {
+color: white;
+margin: 0.4em 0em 0em 0.8em;
+}
+.ar-en{
+    text-align: center;
+    font-size: .9em;
+    margin-top: 0.2em;
+    margin-bottom: .2em;
+}
+#ar {
+    color: red;
+    border-left: .1em solid #9e9e9e;
+    padding-left: 0.4em;
+}
+#en {
+
+    padding-right: 0.4em;
+    color: #797979;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #bd2024;
+    border-bottom: #bd2024 solid .1em;
+}
+
+#header-two{
+    background-color: #f8f9fa;
+}
+
+.navbar-nav li {
+    border-left: solid .1em #ececec;
+}
+.navbar-nav li:last-child {
+    border: 0;
+}
+
+#new-user-link {
+    color: #27384a;
+    border-bottom: .01em solid #27384a;
+    margin-left: .6em;
+    text-decoration: none;
+    
+}
+#new-user-item{
+    margin-right: 12em;
+    margin-top: .2em;
+    border: 0;
+}
+#sign-in-button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 1.3em;
+    cursor: pointer;
+    padding: .5em 2em .5em 2em;
+    border-radius: 5px;
+}
+
+
+
+
+/**************************************** First Cover ********************************/
+#cover-one {
+    background-image: url(../images/header.jpg);
+    padding: 7em 7em 0 7em;
+    background-size: cover;
+}
+
+.caption {
+    margin-bottom: 7em;
+}
+
+.caption h2{
+    color: #bd2024;
+    font-weight: 600;
+}
+
+.caption p {
+    line-height: 2.3em;
+}
+
+.caption button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: .5em 2em .5em 2em;
+    border-radius: 5px;
+}
+
+
+/*************************************** Second Cover ********************************/
+#cover-two{
+    background-image: url(../images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:3em;
+ 
+}
+
+#wrapper {
+    overflow: auto;
+}
+.cover-two-text{
+    text-align: center;
+}
+.cover-two-text p {
+    font-size: 1.2em;
+} 
+
+/************************************************** articles **************************************/ 
+.title {
+    border-bottom: .01em solid #c32024;
+    float: right;
+}
+
+.title span{
+    font-size: 1.5em;
+    color: #bd2024;
+}
+
+#articles {
+    padding-top: 3em;
+    background-color: #f8f9fa;
+
+}
+.card-title{
+    color: #bd2024
+}
+.articles-cards{
+    margin-top: 2em;
+}
+.cards-wrapper{
+    padding: 1em;
+}
+.card-img-top {
+    padding: .02em;
+}
+.card-button{
+    text-align: center;
+}
+
+.card-button .btn {
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: .5em 2em .5em 2em;
+  
+}
+.title-wrapper {
+    overflow: hidden;
+    border-bottom: .01em solid lightgray;
+}
+.offer-arrows{
+    direction: ltr;
+    line-height: 2.2em;
+    float: left;
+}
+.arrow-left-offer{
+    margin-right: 1em;
+}
+
+/**************************************************Donations ************************************/
+.donations-title span {
+    font-size: 1.5em;
+    color: #bd2024;
+    border-bottom: .1em solid;
+}
+
+.donations-title-wrapper{
+    text-align: center;
+    border-bottom: .01em solid lightgray;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+}
+
+.donations-selecors select {
+    text-transform: none;
+    padding: 0em 1em 0em 10em;
+    border-radius: 1em;
+    font-family: inherit;
+    color: #a9adb3;
+    font-size: inherit;
+    border: .01em solid white;
+    margin-bottom: 1em;
+
+}
+
+.donations-selecors{
+    margin-top: 2em;
+    text-align: center;
+}
+
+.donations-selecors .fas {
+    background-color: white;
+    padding: .5em;
+    border-radius: 1em;
+}
+#donations{
+    background-color: #ececec;
+
+}
+
+.blood-type{
+    display: inline-block;
+}
+.donaitor-name{
+    display: inline-block;
+}
+.donaitor-deails{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(64%);
+}
+.members-data{
+    background-color: white;
+    padding: 1.2em .5em;
+    border-bottom-right-radius: 5em;
+    border-top-right-radius: 5em;
+    margin-top: 1em;
+}
+.members-data span{
+    font-size: 4em;
+    background-color: #ececec;
+    border-radius: 100%;
+    padding: em;
+    padding-left: .7em;
+    padding-right: .7em;
+}
+
+.donations-members{
+
+    margin-top: 2em;
+}
+
+.donaitor-deails button{
+    background-color: #ececec;
+    border: none;
+    color: #212529;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: .5em 2em .5em 2em;
+    margin-left: 1em;
+}
+
+.donaitor-deails button:hover{
+
+    background-color: #212529;
+    color:#ececec ;
+}
+
+.donations-members{
+    padding: 0em 5em 5em 5em;
+}
+.donaitor-name-one{
+    display: inline-block;
+    font-weight: 600;
+}
+.donaions-last-btn button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    padding: .5em 3em .5em 3em;
+    margin-top: 2em;
+}
+.donaions-last-btn{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/*******************************************call-us***************************************/
+#call-us{
+
+    background-image: url(../images/call.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 4em 0 5em 0;
+}
+.call-us-title{
+    border-bottom: .01em solid #bd2024;
+    color: #bd2024;
+    font-size: 2em;
+    font-weight: 600;
+}
+.call-us-paragraph {
+    padding: 2em;
+    font-size: 1em;
+    font-weight: 600;
+}
+.whatsapp-number{
+    position: relative;
+}
+.whatsapp-number span{
+    background-color: #3bbc28;
+    padding: 1em 3em;
+    color: white;
+    
+    margin-left: 1em;
+}
+.call-us-whats-logo{
+    position: absolute;
+    right: 62%;
+    bottom: -137%;
+}
+.call-us-whats-logo img {
+    width: 70%;
+}
+
+/******************************************APP*********************************/
+#blood-bank-app{
+    background-image: url(../images/BG-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em 0 2em 0;
+}
+.app-title{
+    margin-bottom: 4em;
+}
+.app-title h2{
+    font-weight: 600;
+}
+.app-title p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.app-available{
+    text-align: center;
+}
+.app-available h2{
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+    
+    /*************************************footer *************************************/
+#footer{
+    background-color: #060617;
+    padding: 4em;
+}
+.footer-deails{
+    color: white;
+}
+.footer-pages-list{
+    color: white; 
+}
+.footer-logos{
+    color: white; 
+}
+#footer ul {
+    line-height: 2.5em;
+} 
+#footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+} 
+.footer-deails h5 {
+    padding: 1em 0;
+}
+.footer-img{
+    padding: 1em 0;
+}
+
+/****************************************copy rights***************************/
+#copy-rights{
+    background-color: #0b0b1b;
+    padding-top: 1em;
+}
+.copy-rights-icons{
+    color: white;
+    text-align: center;
+}
+.copy-rights-text {
+    text-align: center;
+    color: white;
+}
+.copy-rights-text p {
+    direction: ltr;
+}
+.copy-rights-icons .fab{
+    margin-left: 1em;
+}
+
+/****************************************************** SIGN UP ***************************************************************/
+
+/* header */ 
+.signin-header{
+    text-align: center;
+}
+.signin-header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+}
+#signIn-button {
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 17.7em;
+    cursor: pointer;
+    padding: .5em 2em .5em 2em;
+    border-radius: 5px;
+}
+#signIn-form {
+    background-color: #f8f9fa;
+}
+.signin-title{
+    background-color: white;
+    padding: 1em 1em 0.5em 1em;
+    margin: 3em 0em 3em 0em;
+}
+.signin-title p {
+    margin-bottom: .5rem;
+}
+.log-in-button-one {
+    text-align: center;
+    padding: 1em;
+}
+.log-in-button-one button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+    cursor: pointer;
+    padding: .5em 4em .5em 4em;
+
+}
+.form-control{
+    background-color: #f8f9fa;
+}
+.sign-in-form-container{
+    background-color: white;
+    padding: 3em 3em 1em 3em;
+    margin-bottom: 3em;
+}
+/*******************************************************SIGN IN ************************/
+.form-check {
+    display: inline-block;
+}
+.forget-password {
+    display: inline-block;
+    float: left;
+    text-align: end;
+}
+.forget-password img {
+    width: 2%;
+}
+.ign-in-logo{
+    text-align: center;
+    padding: 0em 0em 3em 0em;
+}
+.log-in-button-wrapper{
+    text-align: end;
+}
+.log-in-button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+    cursor: pointer;
+    padding: .5em 6em .5em 5.9em;
+}
+
+.sign-up-button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+    cursor: pointer;
+    padding: .5em 4em .5em 4em;
+}
+.button-wrapper{
+    text-align: end;
+}
+.sign-up-button-container{
+    margin: 2em;
+}
+/************************************************** ARTICLES *****************************/
+.articles-main-img{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.artickes-main-title{
+    background-color: #27384a;
+    padding: 1em 1em 0.5em 1em;
+    margin: 3em 0em 3em 0em;
+}
+.artickes-main-title p {
+    margin-bottom: .5rem;
+}
+
+/************************************************** call us **********************************************/
+.first-col-title{
+    background-color: #27384a;
+    text-align: center;
+}
+.first-col-title p {
+    color: white;
+    padding: 1em;
+}
+.first-col-img{
+    text-align: center;
+    border-bottom: .01em solid lightgray;
+    padding: 2em;
+}
+.call-us-data{
+    display: inline-block;
+    padding: 1em 0em 1em 0em;
+}
+.call-us-data-details{
+    display: inline-block;
+}
+#call-us-main{
+background-color: #f8f9fa;
+padding-bottom: 2em;
+}
+.call-us-icons{
+    text-align: center;
+}
+.call-us-icons-bars{
+    padding: 1em;
+}
+.call-us-submit-button{
+    text-align: center;
+}
+.call-us-submit-button button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: .4em 4em;
+  
+    cursor: pointer;
+   
+}
+.call-us-submit-button button:hover{
+    background-color: #27384a;
+    
+    color: white;
+    
+    cursor: pointer;
+   
+}
+/*********************************donaittor ************************/
+.donaitor-name-list{
+    display: inline-block;
+}
+.donaitor-name-list-data{
+    display: inline-block;
+}
+.donaitor-first-data{
+    padding: 0;
+}
+.donaitor-first-data p {
+    background-color: #e8e7e7;
+    padding: .5em;
+}
+.donaitor-second-data{
+    padding-right: 0;
+}
+.donaitor-second-data p {
+    background-color: #f8f9fa;
+    padding: .5em;
+}
+#donaitor{
+    padding: 1em;
+
+}
+.donaitor-details-button{
+    text-align: center;
+}
+.donaitor-details-button button{
+    background-color: #27384a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: .4em 4em;
+  
+    cursor: pointer;
+    margin: 1em;
+}
+.donaitor-text{
+    background-color: white;
+    padding: 1em 1em 0.5em 1em;
+    margin: 3em 0em 3em 0em;
+    border: .01em solid lightgray;
+
+}
+#map {
+    margin-bottom: 3em;
+}

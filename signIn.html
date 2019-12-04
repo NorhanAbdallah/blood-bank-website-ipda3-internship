@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blood Bank \ Sign In</title>
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+        integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/css/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/responsive.css">
+</head>
+<style>
+    #header-two:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 1px;
+        z-index: -1;
+        transform: scale(.9);
+        box-shadow: 0px 0px 8px 2px #000000;
+    }
+</style>
+
+<body style="font-family: 'Cairo', sans-serif;">
+    <header id="header-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="signin-header">
+                        <a href="signUp.html"><span>إنشاء حساب جديد</span></a>
+                        <a href="logIn.html"><span id="signin-header-span" style="color: #ff0018;">الدخول</span></a>
+
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="header-icons">
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="ar-en">
+                        <span id="en">EN</span>
+                        <span id="ar">عربي</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="header-two">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="Assets/images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
+
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav justify-content-center mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">عن بنك الدم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="articles.html">المقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donationsOrders.html">طلبات التبرع</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="whoAreWe.html">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="callUs.html">اتصل بنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="logIn.html"><button id="signIn-button">طلب تبرع</button></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
+    <section id="signIn-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="signin-title">
+                        <p><span style="color: #d2d2d2;"> الرئيسية</span> / انشاء حساب جديد</p>
+                    </div>
+
+                    <div class="sign-in-form-container">
+                        <div class="ign-in-logo">
+                            <img src="Assets/images/logo.png">
+                        </div>
+                        <form>
+                            <div class="form-group">
+
+                                <input type="number" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="الجوال">
+                            </div>
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="كلمة المرور">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            تذكرني
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="forget-password">
+                                        <img src="Assets/images/complain.png">
+                                        <span>هل نسيت كلمة المرور</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </form>
+                        <div class="sign-up-button-container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6 button-wrapper">
+                                    <a href="#"><button class="log-in-button">دخول</button></a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <a href="#"><button class="sign-up-button">انشاء حساب جديد</button></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="footer-deails">
+                        <a href="index.html"> <img src="Assets/images/logo.png" width="110" height="50"></a>
+                        <h5>بنك الدم</h5>
+                        <p>بنك الدم هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد
+                            النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد
+                            الحروف التى يولدها التطبيق</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="footer-pages-list">
+                        <ul style="list-style-type:none;">
+                            <a href="index.html">
+                                <li style="color: #ce1f24;">الرئيسية</li>
+                            </a>
+                            <a href="about.html">
+                                <li>عن بنك الدم</li>
+                            </a>
+                            <a href="articles.html">
+                                <li>المقالات</li>
+                            </a>
+                            <a href="donationsOrders.html">
+                                <li>طلبات التبرع</li>
+                            </a>
+                            <a href="whoAreWe.html">
+                                <li>من نحن</li>
+                            </a>
+                            <a href="callUs.html">
+                                <li>اتصل بنا</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="footer-logos">
+                        <ul style="list-style-type:none;">
+                            <li style="color: #ce1f24;">متوفر على</li>
+                            <a>
+                                <li><img src="Assets/images/google1.png" class="footer-img"></li>
+                            </a>
+                            <a>
+                                <li><img src="Assets/images/ios1.png" class="footer-img"></li>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <section id="copy-rights">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 ">
+                    <div class="copy-rights-icons">
+                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 ">
+                    <div class="copy-rights-text">
+                        <p> 2019 &copy; جميع الحقوق محفوظة <span style="color: #ce1f24">لبنك الدم</span>
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+        integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Assets/css/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="Assets/js/javaScript.js"></script>
+</body>
+
+</html>

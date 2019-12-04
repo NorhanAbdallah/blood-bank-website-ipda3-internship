@@ -1,0 +1,611 @@
+@media (max-width: 320px) /* small mobile */  
+{ 
+    #new-user-item {
+        border: 0;
+        margin-bottom: 1em;
+        margin-right: 0;
+        margin-top: 0; 
+       
+    }
+    #sign-in-button {
+        margin-right: 0em;
+    }
+
+    /*********************************************Cover ONE *******************************/
+  
+    #cover-one {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header.jpg);
+        padding: 0;
+        background-size: cover;
+    }
+    .caption {
+        margin-bottom: 0em;
+        margin-top: 1em;
+    }
+    .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+        line-height: 2em;
+        font-size: .9em;
+
+    }
+    .caption button {
+        font-size: 14px;
+        padding: .2em 1em .2em 1em;
+    }
+
+    /************************************************ COVER TWO **************************************/
+
+    #cover-two {
+        background-image: none;
+        padding: 1em 0 0 0em;
+        margin-bottom: 1.5em;
+
+    }
+    .cover-two-text p {
+        font-size: 1em;
+    }
+
+    /********************************************** donattions ************************************/
+.members-data{
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    padding: 0em 0em 1em 0em;
+    border-bottom-right-radius: 0em;
+     border-top-right-radius: 0em; 
+    margin-top: 1em;
+
+}
+.members-data span {
+    display: block;
+    font-size: 4em;
+    background-color: white;
+    border-radius: 0;
+    padding: 0em;
+    
+}
+.donaitor-name-one {
+    float: right;
+}
+.donations-members {
+    padding: 0em ; 
+}
+.donaitor-deails {
+     display: block; 
+    float: none;
+    position: unset;
+    top: 0%;
+    transform: translateY(0%);
+
+}
+.donaions-last-btn {
+
+    margin-top: 2em;
+}
+.donaions-last-btn {
+    margin-top: 2em;
+}
+/****************************************** CALL US *************************************/
+.call-us-whats-logo img {
+    width: 76%;
+}
+.call-us-whats-logo {
+    right: 69%;
+    bottom: -101%;
+}
+.whatsapp-number span {
+
+    margin-left: 0em;
+}
+
+
+#call-us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/call.jpg);
+   
+}
+.call-us-paragraph {
+    color: white;
+}
+/*********************************************app********************************/
+.app-available{
+    margin-bottom: 2em;
+}
+/*********************************foteer **********************/
+#footer {
+    background-color: #060617;
+   padding:1em 0em 0em 0em;
+ 
+}
+#footer ul {
+    padding-inline-start: 0;
+
+} 
+/******************************************************************sign in page ***************************************/
+.forget-password {
+    float: none;
+    text-align: unset;
+}
+.forget-password img {
+    width: 7%;
+}
+.sign-in-form-container {
+
+padding: 0em;
+
+}
+.button-wrapper {
+
+    margin-bottom: 1em;
+}
+#signIn-button {
+ margin-right:0em;
+}
+}
+
+
+
+
+
+@media (min-width: 320px ) and  (max-width: 375px) /* medium mobile */ 
+{ 
+    #new-user-item {
+        margin-right: 0em; 
+        margin-top: 0em; 
+        border: 0;
+    }
+
+    #new-user-link {
+        margin-left: 0em;
+    } 
+    #sign-in-button {
+      margin-right: 0em;
+      margin-top: 1em
+
+    }
+
+    #cover-one {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header.jpg);
+        padding: 0;
+        background-size: cover;
+    }
+    .caption {
+        margin-bottom: 0em;
+        margin-top: 1em;
+    }
+    .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+        line-height: 2em;
+        font-size: .9em;
+
+    }
+    .caption button {
+        font-size: 14px;
+        padding: .2em 1em .2em 1em;
+    }
+
+    /************************************************ COVER TWO **************************************/
+
+    #cover-two {
+        background-image: none;
+        padding: 1em 0 0 0em;
+        margin-bottom: 1.5em;
+
+    }
+    .cover-two-text p {
+        font-size: 1em;
+    }
+
+ /********************************************** donattions ************************************/
+ .members-data{
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    padding: 0em 0em 1em 0em;
+    border-bottom-right-radius: 0em;
+     border-top-right-radius: 0em; 
+    margin-top: 1em;
+
+}
+.members-data span {
+    display: block;
+    font-size: 4em;
+    background-color: white;
+    border-radius: 0;
+    padding: 0em;
+    
+}
+.donaitor-name-one {
+    float: right;
+}
+.donations-members {
+    padding: 0em ; 
+}
+.donaitor-deails {
+     display: block; 
+    float: none;
+    position: unset;
+    top: 0%;
+    transform: translateY(0%);
+}   
+.donaions-last-btn {
+    margin-top: 2em;
+}
+/****************************************** call us *******************/
+.whatsapp-number span {
+    background-color: #3bbc28;
+    padding: 1em 2em;
+    color: white;
+    margin-left: 3em;
+}
+#call-us{
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/call.jpg);
+   
+}
+.call-us-paragraph {
+    color: white;
+}
+/*********************************************app********************************/
+.app-available{
+    margin-bottom: 2em;
+}
+/*********************************foteer **********************/
+#footer {
+    background-color: #060617;
+   padding:1em 0em 0em 0em;
+ 
+}
+#footer ul {
+    padding-inline-start: 0;
+
+} 
+/******************************************************************sign in page ***************************************/
+.forget-password {
+    float: none;
+    text-align: unset;
+}
+.forget-password img {
+    width: 7%;
+}
+.sign-in-form-container {
+
+padding: 0em;
+
+}
+.button-wrapper {
+
+    margin-bottom: 1em;  
+     text-align: start;
+
+}
+.log-in-button {
+   
+    padding: .5em 6.4em .5em 6.4em;
+}
+#signIn-button {
+
+    margin-right:0em;
+   
+     
+   }
+}
+
+@media (min-width: 375px) and (max-width: 425px)  /* large mobiles */ 
+{
+    #new-user-item {
+        margin-right: 0em;
+        margin-top: 0em;
+        border: 0;
+    }
+    #new-user-link {
+        margin-left: 0em;
+    }
+    #sign-in-button {
+        margin-right: 0em; 
+        margin-top: 1em;
+    }
+
+    #cover-one {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header.jpg);
+        padding: 0;
+        background-size: cover;
+    }
+    .caption {
+        margin-bottom: 0em;
+        margin-top: 1em;
+    }
+    .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: white;
+        line-height: 2em;
+        font-size: .9em;
+
+    }
+    .caption button {
+        font-size: 14px;
+        padding: .2em 1em .2em 1em;
+    }
+
+/************************************************ COVER TWO **************************************/
+
+#cover-two {
+    background-image: none;
+    padding: 1em 0 0 0em;
+    margin-bottom: 1.5em;
+
+}
+.cover-two-text p {
+    font-size: 1em;
+}
+
+ /********************************************** donattions ************************************/
+ .members-data{
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    padding: 0em 0em 1em 0em;
+    border-bottom-right-radius: 0em;
+     border-top-right-radius: 0em; 
+    margin-top: 1em;
+
+}
+.members-data span {
+    display: block;
+    font-size: 4em;
+    background-color: white;
+    border-radius: 0;
+    padding: 0em;
+    
+}
+.donaitor-name-one {
+    float: right;
+}
+.donations-members {
+    padding: 0em ; 
+}
+.donaitor-deails {
+     display: block; 
+    float: none;
+    position: unset;
+    top: 0%;
+    transform: translateY(0%);
+
+}
+.donaions-last-btn {
+    margin-top: 2em;
+}
+/*********************************call us *************************************/
+.whatsapp-number span {
+    padding: 1em 3em;
+    margin-left: 2em;
+}
+#call-us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/call.jpg);
+}
+.call-us-paragraph {
+    color: white;
+}
+/*********************************************app********************************/
+.app-available{
+    margin-bottom: 2em;
+}
+/*********************************foteer **********************/
+#footer {
+    background-color: #060617;
+   padding:1em 0em 0em 0em;
+ 
+}
+#footer ul {
+    padding-inline-start: 0;
+
+} 
+/******************************************************************sign in page ***************************************/
+.forget-password {
+    float: none;
+    text-align: unset;
+}
+.forget-password img {
+    width: 7%;
+}
+.sign-in-form-container {
+
+padding: 0em;
+
+}
+.button-wrapper {
+
+    margin-bottom: 1em;  
+     text-align: start;
+
+}
+.log-in-button {
+   
+    padding: .5em 6.4em .5em 6.4em;
+}
+#signIn-button {
+
+    margin-right:0em;
+   
+     
+   }
+}
+
+@media (min-width: 425px) and (max-width: 786px)
+{
+    #sign-in-button {
+       margin-right: 0em; 
+   
+    }
+    #new-user-item {
+        margin-right: 0em;
+        margin-top: 0em; 
+        border: 0;
+    }
+
+    #sign-in-button {
+        margin-right: 0em; 
+        margin-top: 1em;
+    }
+    #number-span {
+        font-size: 0.8em;
+    }
+    .number span{
+
+        font-size: .8em;
+    }
+
+    #cover-one {
+
+       
+        padding: 0;
+        background-size: cover;
+    }
+    .caption {
+        margin-bottom: 0em;
+        margin-top: 1em;
+    }
+    .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .caption p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: black;
+        line-height: 2em;
+        font-size: .9em;
+
+    }
+    .caption button {
+        font-size: 14px;
+        padding: .2em 1em .2em 1em;
+    }
+
+
+/************************************************ COVER TWO **************************************/
+
+#cover-two {
+    background-image: url(../images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    padding: 1em 0 0 0;
+}
+.cover-two-text p {
+    font-size: 1em;
+}
+/************************************* donations ********************************/
+.donations-members {
+    padding: 0;
+}
+.donaions-last-btn {
+    margin-top: 2em;
+}
+/*********************************caall**********************/
+.call-us-whats-logo {
+    position: absolute;
+    right: 59%;
+    bottom: -126%;
+}
+.call-us-whats-logo img {
+    width: 66%;
+}
+#call-us{
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/call.jpg);
+   
+}
+.call-us-paragraph {
+
+    color: white;
+}
+/*********************************************app********************************/
+.app-available{
+    margin-bottom: 2em;
+}
+.app-title {
+    margin-bottom: 0em; 
+}
+.app-title h2 {
+    font-size: 1rem;
+}
+.app-title p {
+   
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.app-available h2 {
+    font-size: 1rem;
+}
+/*********************************foteer **********************/
+#footer {
+    background-color: #060617;
+   padding:1em 0em 0em 0em;
+ 
+}
+#footer ul {
+    padding-inline-start: 0;
+
+} 
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    /************************************************** Article Card *************************************/ 
+    .card-title {
+        color: #bd2024;
+        font-size: .9em;
+        font-weight: 600;
+    }
+
+    .cards-wrapper {
+        padding: .3em;
+    }
+    .card-body p {
+            font-size: .8em;
+    }
+
+    .card-button .btn {
+        font-size: 14px;
+        padding: .5em 1em .5em 1em;
+    }
+
+    /************************************************** Donations *****************************************/
+    .donations-members {
+        padding: 0em 1em 3em 1em;
+    }
+    .donaions-last-btn {
+        margin-top: 2em;
+    }
+    #signIn-button {
+     
+        margin-right: 0em;
+      
+    }
+
+}
