@@ -7,8 +7,8 @@
     <title>Blood Bank \ Sign In</title>
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
         integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Assets/css/slick-1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="Assets/css/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/slick-theme.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
@@ -48,53 +48,55 @@
         </div>
     </header>
 
-    <header id="header-two">
-        <div class="container">
+<header id="header-two">
+    <div class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="Assets/images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="Assets/images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
 
-                </a>
+            </a>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav justify-content-center mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">عن بنك الدم</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="articles.html">المقالات</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="donationsOrders.html">طلبات التبرع</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="whoAreWe.html">من نحن</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="callUs.html">اتصل بنا</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="logIn.html"><button id="signIn-button">طلب تبرع</button></a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav justify-content-center mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">عن بنك الدم</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="articles.html">المقالات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donations.html">طلبات التبرع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="callUs.html">اتصل بنا</a>
+                    </li>
+                    <li class="nav-item" id="new-user-item">
+                        <a id="new-user-link" href="signUp.html"><span>إنشاء حساب جديد</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logIn.html"><button id="sign-in-button">الدخول</button></a>
+                    </li>
+                </ul>
+            </div>
 
-                    </ul>
-                </div>
+
+        </nav>
 
 
-            </nav>
+    </div>
 
-
-        </div>
-
-    </header>
+</header>
 
 
     <section id="signIn-form">
@@ -210,10 +212,10 @@
                             <a href="articles.html">
                                 <li>المقالات</li>
                             </a>
-                            <a href="donationsOrders.html">
+                            <a href="donations.html">
                                 <li>طلبات التبرع</li>
                             </a>
-                            <a href="whoAreWe.html">
+                            <a href="about.html">
                                 <li>من نحن</li>
                             </a>
                             <a href="callUs.html">
@@ -280,7 +282,7 @@
     <script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
         integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="Assets/css/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="Assets/js/slick.min.js"></script>
     <script type="text/javascript" src="Assets/js/javaScript.js"></script>
 </body>
 
